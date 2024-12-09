@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Wallpaper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+            border-radius: 5px;
+        }
+
+        .welcome {
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .category {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .category h2 {
+            margin-bottom: 10px;
+        }
+
+        .wallpapers {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .wallpapers img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 10px;
+            /* Adjust as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            /* Semi-transparent background */
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+            visibility: hidden;
+            /* Hide by default */
+        }
+
+        .image-container:hover .overlay {
+            visibility: visible;
+            /* Show on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nature Wallpaper</h1>
+    </header>
+
+    <!-- <nav>
+        <a href="#welcome">Welcome</a>
+        <a href="#categories">Categories</a>
+    </nav> -->
+
+    <section id="welcome" class="welcome">
+        <!-- <h2>Welcome to the World of Beautiful Nature Wallpapers</h2>
+        <h4>Explore 10 Amazing Categories of Nature Wallpapers</h4> -->
+    </section>
+
+    <section id="categories" class="categories">
+        <div class="category">
+            <h2>Categories</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="images/Categories/Aurora-And-Night-Sky.png" target="_blank">
+                        <img src="images/Categories/Aurora-And-Night-Sky.png" alt="Aurora-And-Night-Sky">
+                    </a>
+                    <div class="overlay">Aurora-And-Night-Sky</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Deserts-And-Sand-Dunes.png" target="_blank">
+                        <img src="images/Categories/Deserts-And-Sand-Dunes.png" alt="Deserts-And-Sand-Dunes">
+                    </a>
+                    <div class="overlay">Deserts-And-Sand-Dunes</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Flowers-And-Gardens.png" target="_blank">
+                        <img src="images/Categories/Flowers-And-Gardens.png" alt="Flowers-And-Gardens">
+                    </a>
+                    <div class="overlay">Flowers-And-Gardens</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Forests-And-Trees.png" target="_blank">
+                        <img src="images/Categories/Forests-And-Trees.png" alt="Forests-And-Trees">
+                    </a>
+                    <div class="overlay">Forests-And-Trees</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Mountains-And-Hills.png" target="_blank">
+                        <img src="images/Categories/Mountains-And-Hills.png" alt="Mountains-And-Hills">
+                    </a>
+                    <div class="overlay">Mountains-And-Hills</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Oceans-And-Beaches.png" target="_blank">
+                        <img src="images/Categories/Oceans-And-Beaches.png" alt="Oceans-And-Beaches">
+                    </a>
+                    <div class="overlay">Oceans-And-Beaches</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Rivers-And-Lakes.png" target="_blank">
+                        <img src="images/Categories/Rivers-And-Lakes.png" alt="Rivers-And-Lakes">
+                    </a>
+                    <div class="overlay">Rivers-And-Lakes</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Sunrises-And-Sunsets.png" target="_blank">
+                        <img src="images/Categories/Sunrises-And-Sunsets.png" alt="Sunrises-And-Sunsets">
+                    </a>
+                    <div class="overlay">Sunrises-And-Sunsets</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Waterfalls.png" target="_blank">
+                        <img src="images/Categories/Waterfalls.png" alt="Waterfalls">
+                    </a>
+                    <div class="overlay">Waterfalls</div>
+                </div>
+                <div class="image-container">
+                    <a href="images/Categories/Wildlife-And-Animals.png" target="_blank">
+                        <img src="images/Categories/Wildlife-And-Animals.png" alt="Wildlife-And-Animals">
+                    </a>
+                    <div class="overlay">Wildlife-And-Animals</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Aurora And Night Sky</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Aurora-Symphony.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Aurora-Symphony.png" alt="Aurora-Symphony">
+                    </a>
+                    <div class="overlay">Aurora-Symphony</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Celestial-Dance.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Celestial-Dance.png" alt="Celestial-Dance">
+                    </a>
+                    <div class="overlay">Celestial-Dance</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Cosmic-Serenity.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Cosmic-Serenity.png" alt="Cosmic-Serenity">
+                    </a>
+                    <div class="overlay">Cosmic-Serenity</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Ethereal-Lights.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Ethereal-Lights.png" alt="Ethereal-Lights">
+                    </a>
+                    <div class="overlay">Ethereal-Lights</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Galactic-Wonders.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Galactic-Wonders.png" alt="Galactic-Wonders">
+                    </a>
+                    <div class="overlay">Galactic-Wonders</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Midnight-Glow.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Midnight-Glow.png" alt="Midnight-Glow">
+                    </a>
+                    <div class="overlay">Midnight-Glow</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Moonlit-Reflections.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Moonlit-Reflections.png" alt="Moonlit-Reflections">
+                    </a>
+                    <div class="overlay">Moonlit-Reflections</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Northern-Radiance.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Northern-Radiance.png" alt="Northern-Radiancey">
+                    </a>
+                    <div class="overlay">Northern-Radiancey</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Starlit-Dreams.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Starlit-Dreams.png" alt="Starlit-Dreams">
+                    </a>
+                    <div class="overlay">Starlit-Dreams</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Aurora-And-Night-Sky/Twilight-Veil.png" target="_blank">
+                        <img src="img/Aurora-And-Night-Sky/Twilight-Veil.png" alt="Twilight-Veil">
+                    </a>
+                    <div class="overlay">Twilight-Veil</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Deserts And Sand Dunes</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Crimson-Dunes.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Crimson-Dunes.png" alt="Crimson-Dunes">
+                    </a>
+                    <div class="overlay">Crimson-Dunes</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Desert-Serenity.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Desert-Serenity.png" alt="Desert-Serenity">
+                    </a>
+                    <div class="overlay">Desert-Serenity</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Endless-Dunes.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Endless-Dunes.png" alt="Endless-Dunes">
+                    </a>
+                    <div class="overlay">Endless-Dunes</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Golden-Sands.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Golden-Sands.png" alt="Golden-Sands">
+                    </a>
+                    <div class="overlay">Golden-Sands</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Oasis-Dreams.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Oasis-Dreams.png" alt="Oasis-Dreams">
+                    </a>
+                    <div class="overlay">Oasis-Dreams</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Shifting-Horizons.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Shifting-Horizons.png" alt="Shifting-Horizons">
+                    </a>
+                    <div class="overlay">Shifting-Horizons</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Sunlit-Mirage.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Sunlit-Mirage.png" alt="Sunlit-Mirage">
+                    </a>
+                    <div class="overlay">Sunlit-Mirage</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Twilight-Desert.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Twilight-Desert.png" alt="Twilight-Desert">
+                    </a>
+                    <div class="overlay">Twilight-Desert</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Whispering-Sands.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Whispering-Sands.png" alt="Whispering-Sands">
+                    </a>
+                    <div class="overlay">Whispering-Sands</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Deserts-And-Sand-Dunes/Windswept-Trails.png" target="_blank">
+                        <img src="img/Deserts-And-Sand-Dunes/Windswept-Trails.png" alt="Windswept-Trails">
+                    </a>
+                    <div class="overlay">Windswept-Trails</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Flowers-And-Gardens</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Blooming-Paradise.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Blooming-Paradise.png" alt="Blooming-Paradise">
+                    </a>
+                    <div class="overlay">Blooming-Paradise</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Colorful-Haven.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Colorful-Haven.png" alt="Colorful-Haven">
+                    </a>
+                    <div class="overlay">Colorful-Haven</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Floral-Symphony.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Floral-Symphony.png" alt="Floral-Symphony">
+                    </a>
+                    <div class="overlay">Floral-Symphony</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Garden-Of-Serenity.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Garden-Of-Serenity.png" alt="Garden-Of-Serenity">
+                    </a>
+                    <div class="overlay">Garden-Of-Serenity</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Petal-Whisper.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Petal-Whisper.png" alt="Petal-Whisper">
+                    </a>
+                    <div class="overlay">Petal-Whisper</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Radiant-Blossoms.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Radiant-Blossoms.png" alt="Radiant-Blossoms">
+                    </a>
+                    <div class="overlay">Radiant-Blossoms</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Rose-Petal-Glow.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Rose-Petal-Glow.png" alt="Rose-Petal-Glow">
+                    </a>
+                    <div class="overlay">Rose-Petal-Glow</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Secret-Garden-Bliss.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Secret-Garden-Bliss.png" alt="Secret-Garden-Bliss">
+                    </a>
+                    <div class="overlay">Secret-Garden-Bliss</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Springtime-Bloom.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Springtime-Bloom.png" alt="Springtime-Bloom">
+                    </a>
+                    <div class="overlay">Springtime-Bloom</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Flowers-And-Gardens/Wildflower-Dreams.png" target="_blank">
+                        <img src="img/Flowers-And-Gardens/Wildflower-Dreams.png" alt="Wildflower-Dreams">
+                    </a>
+                    <div class="overlay">Wildflower-Dreams</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Forest-And-Trees</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Autumn-Leaves-Cascade.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Autumn-Leaves-Cascade.png" alt="Autumn-Leaves-Cascade">
+                    </a>
+                    <div class="overlay">Autumn-Leaves-Cascade</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Deep-Green-Wilderness.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Deep-Green-Wilderness.png" alt="Deep-Green-Wilderness">
+                    </a>
+                    <div class="overlay">Deep-Green-Wilderness</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Emerald-Canopy.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Emerald-Canopy.png" alt="Emerald-Canopy">
+                    </a>
+                    <div class="overlay">Emerald-Canopy</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Enchanted-Woods.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Enchanted-Woods.png" alt="Enchanted-Woods">
+                    </a>
+                    <div class="overlay">Enchanted-Woods</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Midnight-Woods.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Midnight-Woods.png" alt="Midnight-Woods">
+                    </a>
+                    <div class="overlay">Midnight-Woods</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Misty-Forest-Dawn.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Misty-Forest-Dawn.png" alt="Misty-Forest-Dawn">
+                    </a>
+                    <div class="overlay">Misty-Forest-Dawn</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Mystical-Birch-Path.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Mystical-Birch-Path.png" alt="Mystical-Birch-Path">
+                    </a>
+                    <div class="overlay">Mystical-Birch-Path</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Serenity-Grove.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Serenity-Grove.png" alt="Serenity-Grove">
+                    </a>
+                    <div class="overlay">Serenity-Grove</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Sunlit-Glade.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Sunlit-Glade.png" alt="Sunlit-Glade">
+                    </a>
+                    <div class="overlay">Sunlit-Glade</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Forest-And-Trees/Whispering-Pines.png" target="_blank">
+                        <img src="img/Forest-And-Trees/Whispering-Pines.png" alt="Whispering-Pines">
+                    </a>
+                    <div class="overlay">Whispering-Pines</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Mountains-And-Hills</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Alpine-Serenity.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Alpine-Serenity.png" alt="Alpine-Serenity">
+                    </a>
+                    <div class="overlay">Alpine-Serenity</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Emerald-Mountainscape.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Emerald-Mountainscape.png" alt="Emerald-Mountainscape">
+                    </a>
+                    <div class="overlay">Emerald-Mountainscape</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Golden-Highlands.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Golden-Highlands.png" alt="Golden-Highlands">
+                    </a>
+                    <div class="overlay">Golden-Highlands</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Majestic-Peaks.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Majestic-Peaks.png" alt="Majestic-Peaks">
+                    </a>
+                    <div class="overlay">Majestic-Peaks</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Misty-Valley-Vistas.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Misty-Valley-Vistas.png" alt="Misty-Valley-Vistas">
+                    </a>
+                    <div class="overlay">Misty-Valley-Vistas</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Rolling-Hills-Horizon.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Rolling-Hills-Horizon.png" alt="Rolling-Hills-Horizon">
+                    </a>
+                    <div class="overlay">Rolling-Hills-Horizon</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Snowy-Crest-Dreams.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Snowy-Crest-Dreams.png" alt="Snowy-Crest-Dreams">
+                    </a>
+                    <div class="overlay">Snowy-Crest-Dreams</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Sunrise-Over-Summit.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Sunrise-Over-Summit.png" alt="Sunrise-Over-Summit">
+                    </a>
+                    <div class="overlay">Sunrise-Over-Summit</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Sunset-Ridge.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Sunset-Ridge.png" alt="Sunset-Ridge">
+                    </a>
+                    <div class="overlay">Sunset-Ridge</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Mountains-And-Hills/Whispering-Heights.png" target="_blank">
+                        <img src="img/Mountains-And-Hills/Whispering-Heights.png" alt="Whispering-Heights">
+                    </a>
+                    <div class="overlay">Whispering-Heights</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Oceans-And-Beaches</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Azure-Dreams.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Azure-Dreams.png" alt="Azure-Dreams">
+                    </a>
+                    <div class="overlay">Azure-Dreams</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Coral-Bay-Bliss.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Coral-Bay-Bliss.png" alt="Coral-Bay-Bliss">
+                    </a>
+                    <div class="overlay">Coral-Bay-Bliss</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Crystal-Waterscape.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Crystal-Waterscape.png" alt="Crystal-Waterscape">
+                    </a>
+                    <div class="overlay">Crystal-Waterscape</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Endless-Horizon.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Endless-Horizon.png" alt="Endless-Horizon">
+                    </a>
+                    <div class="overlay">Endless-Horizon</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Golden-Shoreline.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Golden-Shoreline.png" alt="Golden-Shoreline">
+                    </a>
+                    <div class="overlay">Golden-Shoreline</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Moonlit-Waves.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Moonlit-Waves.png" alt="Moonlit-Waves">
+                    </a>
+                    <div class="overlay">Moonlit-Waves</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Ocean-Breeze-Escape.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Ocean-Breeze-Escape.png" alt="Ocean-Breeze-Escape">
+                    </a>
+                    <div class="overlay">Ocean-Breeze-Escape</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Sunset-Serenity.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Sunset-Serenity.png" alt="Sunset-Serenity">
+                    </a>
+                    <div class="overlay">Sunset-Serenity</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Tranquil-Tides.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Tranquil-Tides.png" alt="Tranquil-Tides">
+                    </a>
+                    <div class="overlay">Tranquil-Tides</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Oceans-And-Beaches/Tropical-Paradise.png" target="_blank">
+                        <img src="img/Oceans-And-Beaches/Tropical-Paradise.png" alt="Tropical-Paradise">
+                    </a>
+                    <div class="overlay">Tropical-Paradise</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Rivers-And-Lakes</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Crystal-Clear-Stream.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Crystal-Clear-Stream.png" alt="Crystal-Clear-Stream">
+                    </a>
+                    <div class="overlay">Crystal-Clear-Stream</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Emerald-Waters.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Emerald-Waters.png" alt="Emerald-Waters">
+                    </a>
+                    <div class="overlay">Emerald-Waters</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Golden-Riverbank.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Golden-Riverbank.png" alt="Golden-Riverbank">
+                    </a>
+                    <div class="overlay">Golden-Riverbank</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Hidden-Lagoon.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Hidden-Lagoon.png" alt="Hidden-Lagoon">
+                    </a>
+                    <div class="overlay">Hidden-Lagoon</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Mystic-Lake.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Mystic-Lake.png" alt="Mystic-Lake">
+                    </a>
+                    <div class="overlay">Mystic-Lake</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Serene-Waterscape.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Serene-Waterscape.png" alt="Serene-Waterscape">
+                    </a>
+                    <div class="overlay">Serene-Waterscape</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Sunset-Over-Still-Lake.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Sunset-Over-Still-Lake.png" alt="Sunset-Over-Still-Lake">
+                    </a>
+                    <div class="overlay">Sunset-Over-Still-Lake</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Tranquil-Reflections.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Tranquil-Reflections.png" alt="Tranquil-Reflections">
+                    </a>
+                    <div class="overlay">Tranquil-Reflections</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Twilight-Shores.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Twilight-Shores.png" alt="Twilight-Shores">
+                    </a>
+                    <div class="overlay">Twilight-Shores</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Rivers-And-Lakes/Whispering-Brook.png" target="_blank">
+                        <img src="img/Rivers-And-Lakes/Whispering-Brook.png" alt="Whispering-Brook">
+                    </a>
+                    <div class="overlay">Whispering-Brook</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Sunrises-And-Sunsets</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Amber-Glow.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Amber-Glow.png" alt="Amber-Glow">
+                    </a>
+                    <div class="overlay">Amber-Glow</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Celestial-Dawn.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Celestial-Dawn.png" alt="Celestial-Dawn">
+                    </a>
+                    <div class="overlay">Celestial-Dawn</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Crimson-Horizon.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Crimson-Horizon.png" alt="Crimson-Horizon">
+                    </a>
+                    <div class="overlay">Crimson-Horizon</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Dawn's-Embrace.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Dawn's-Embrace.png" alt="Dawn's-Embrace">
+                    </a>
+                    <div class="overlay">Dawn's-Embrace</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Golden-Awakening.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Golden-Awakening.png" alt="Golden-Awakening">
+                    </a>
+                    <div class="overlay">Golden-Awakening</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Morning-Bliss.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Morning-Bliss.png" alt="Morning-Bliss">
+                    </a>
+                    <div class="overlay">Morning-Bliss</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Radiant-Twilight.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Radiant-Twilight.png" alt="Radiant-Twilight">
+                    </a>
+                    <div class="overlay">Radiant-Twilight</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Serenity-At-Dusk.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Serenity-At-Dusk.png" alt="Serenity-At-Dusk">
+                    </a>
+                    <div class="overlay">Serenity-At-Dusk</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Sunset-Symphony.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Sunset-Symphony.png" alt="Sunset-Symphony">
+                    </a>
+                    <div class="overlay">Sunset-Symphony</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Sunrises-And-Sunsets/Twilight-Serenity.png" target="_blank">
+                        <img src="img/Sunrises-And-Sunsets/Twilight-Serenity.png" alt="Twilight-Serenity">
+                    </a>
+                    <div class="overlay">Twilight-Serenity</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Waterfalls</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Waterfalls/Crystal-Drop.png" target="_blank">
+                        <img src="img/Waterfalls/Crystal-Drop.png" alt="Crystal-Drop">
+                    </a>
+                    <div class="overlay">Crystal-Drop</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Emerald-Veil.png" target="_blank">
+                        <img src="img/Waterfalls/Emerald-Veil.png" alt="Emerald-Veil">
+                    </a>
+                    <div class="overlay">Emerald-Veil</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Enchanted-Flow.png" target="_blank">
+                        <img src="img/Waterfalls/Enchanted-Flow.png" alt="Enchanted-Flow">
+                    </a>
+                    <div class="overlay">Enchanted-Flow</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Hidden-Oasis.png" target="_blank">
+                        <img src="img/Waterfalls/Hidden-Oasis.png" alt="Hidden-Oasis">
+                    </a>
+                    <div class="overlay">Hidden-Oasis</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Misty-Cascade.png" target="_blank">
+                        <img src="img/Waterfalls/Misty-Cascade.png" alt="Misty-Cascade">
+                    </a>
+                    <div class="overlay">Misty-Cascade</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Nature's-Symphony.png" target="_blank">
+                        <img src="img/Waterfalls/Nature's-Symphony.png" alt="Nature's-Symphony">
+                    </a>
+                    <div class="overlay">Nature's-Symphony</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Serene-Waterscape.png" target="_blank">
+                        <img src="img/Waterfalls/Serene-Waterscape.png" alt="Serene-Waterscape">
+                    </a>
+                    <div class="overlay">Serene-Waterscape</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Silver-Stream.png" target="_blank">
+                        <img src="img/Waterfalls/Silver-Stream.png" alt="Silver-Stream">
+                    </a>
+                    <div class="overlay">Silver-Stream</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Thunderous-Plunge.png" target="_blank">
+                        <img src="img/Waterfalls/Thunderous-Plunge.png" alt="Thunderous-Plunge">
+                    </a>
+                    <div class="overlay">Thunderous-Plunge</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Waterfalls/Whispering-Falls.png" target="_blank">
+                        <img src="img/Waterfalls/Whispering-Falls.png" alt="Whispering-Falls">
+                    </a>
+                    <div class="overlay">Whispering-Falls</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Wildlife-And-Animals</h2>
+            <div class="wallpapers">
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Enchanted-Wildlife.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Enchanted-Wildlife.png" alt="Enchanted-Wildlife">
+                    </a>
+                    <div class="overlay">Enchanted-Wildlife</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Forest-Guardians.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Forest-Guardians.png" alt="Forest-Guardians">
+                    </a>
+                    <div class="overlay">Forest-Guardians</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Gentle-Giants.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Gentle-Giants.png" alt="Gentle-Giants">
+                    </a>
+                    <div class="overlay">Gentle-Giants</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Hidden-Prowler.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Hidden-Prowler.png" alt="Hidden-Prowler">
+                    </a>
+                    <div class="overlay">Hidden-Prowler</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Majestic-Wilderness.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Majestic-Wilderness.png" alt="Majestic-Wilderness">
+                    </a>
+                    <div class="overlay">Majestic-Wilderness</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Nature's-Companions.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Nature's-Companions.png" alt="Nature's-Companions">
+                    </a>
+                    <div class="overlay">Nature's-Companions</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Nighttime-Hunters.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Nighttime-Hunters.png" alt="Nighttime-Hunters">
+                    </a>
+                    <div class="overlay">Nighttime-Hunters</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Savannah-Spirit.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Savannah-Spirit.png" alt="Savannah-Spirit">
+                    </a>
+                    <div class="overlay">Savannah-Spirit</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Soaring-Freedom.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Soaring-Freedom.png" alt="Soaring-Freedom">
+                    </a>
+                    <div class="overlay">Soaring-Freedom</div>
+                </div>
+                <div class="image-container">
+                    <a href="img/Wildlife-And-Animals/Tranquil-Herd.png" target="_blank">
+                        <img src="img/Wildlife-And-Animals/Tranquil-Herd.png" alt="Tranquil-Herd">
+                    </a>
+                    <div class="overlay">Tranquil-Herd</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nature Wallpaper Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
