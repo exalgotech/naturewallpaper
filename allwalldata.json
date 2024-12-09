@@ -1,0 +1,424 @@
+{
+  "walldata": {
+    "Forests & Trees": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Autumn-Leaves-Cascade.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Deep-Green-Wilderness.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Emerald-Canopy.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Enchanted-Woods.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Midnight-Woods.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Misty-Forest-Dawn.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Mystical-Birch-Path.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Serenity-Grove.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Sunlit-Glade.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Forest-And-Trees/Whispering-Pines.png"
+      }
+    ],
+    "Oceans & Beaches": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Azure-Dreams.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Coral-Bay-Bliss.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Crystal-Waterscape.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Endless-Horizon.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Golden-Shoreline.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Moonlit-Waves.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Ocean-Breeze-Escape.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Sunset-Serenity.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Tranquil-Tides.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Oceans-And-Beaches/Tropical-Paradise.png"
+      }
+    ],
+    "Deserts & Sand Dunes": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Crimson-Dunes.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Desert-Serenity.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Endless-Dunes.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Golden-Sands.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Oasis-Dreams.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Shifting-Horizons.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Sunlit-Mirage.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Twilight-Desert.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Whispering-Sands.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Deserts-And-Sand-Dunes/Windswept-Trails.png"
+      }
+    ],
+    "Flowers & Gardens": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Blooming-Paradise.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Colorful-Haven.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Floral-Symphony.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Garden-Of-Serenity.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Petal-Whisper.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Radiant-Blossoms.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Rose-Petal-Glow.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Secret-Garden-Bliss.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Springtime-Bloom.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Flowers-And-Gardens/Wildflower-Dreams.png"
+      }
+    ],
+    "Waterfalls": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Crystal-Drop.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Emerald-Veil.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Enchanted-Flow.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Hidden-Oasis.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Misty-Cascade.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Nature's-Symphony.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Serene-Waterscape.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Silver-Stream.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Thunderous-Plunge.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Waterfalls/Whispering-Falls.png"
+      }
+    ],
+    "Sunrises & Sunsets": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Amber-Glow.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Celestial-Dawn.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Crimson-Horizon.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Dawn's-Embrace.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Golden-Awakening.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Morning-Bliss.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Radiant-Twilight.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Serenity-At-Dusk.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Sunset-Symphony.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Sunrises-And-Sunsets/Twilight-Serenity.png"
+      }
+    ],
+    "Aurora & Night Sky": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Aurora-Symphony.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Celestial-Dance.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Cosmic-Serenity.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Ethereal-Lights.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Galactic-Wonders.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Midnight-Glow.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Moonlit-Reflections.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Northern-Radiance.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Starlit-Dreams.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Aurora-And-Night-Sky/Twilight-Veil.png"
+      }
+    ],
+    "Wildlife & Animals": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Enchanted-Wildlife.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Forest-Guardians.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Gentle-Giants.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Hidden-Prowler.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Majestic-Wilderness.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Nature's-Companions.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Nighttime-Hunters.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Savannah-Spirit.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Soaring-Freedom.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Wildlife-And-Animals/Tranquil-Herd.png"
+      }
+    ],
+    "Rivers & Lakes": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Crystal-Clear-Stream.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Emerald-Waters.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Golden-Riverbank.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Hidden-Lagoon.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Mystic-Lake.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Serene-Waterscape.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Sunset-Over-Still-Lake.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Tranquil-Reflections.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Twilight-Shores.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Rivers-And-Lakes/Whispering-Brook.png"
+      }
+    ],
+    "Mountains & Hills": [
+      {
+        "id": "1",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Alpine-Serenity.png"
+      },
+      {
+        "id": "2",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Emerald-Mountainscape.png"
+      },
+      {
+        "id": "3",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Golden-Highlands.png"
+      },
+      {
+        "id": "4",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Majestic-Peaks.png"
+      },
+      {
+        "id": "5",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Misty-Valley-Vistas.png"
+      },
+      {
+        "id": "6",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Rolling-Hills-Horizon.png"
+      },
+      {
+        "id": "7",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Snowy-Crest-Dreams.png"
+      },
+      {
+        "id": "8",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Sunrise-Over-Summit.png"
+      },
+      {
+        "id": "9",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Sunset-Ridge.png"
+      },
+      {
+        "id": "10",
+        "image": "https://exalgotech.github.io/naturewallpaper/img/Mountains-And-Hills/Whispering-Heights.png"
+      }
+    ]
+  }
+}

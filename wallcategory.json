@@ -1,0 +1,44 @@
+{
+  "catdata": [
+    {
+      "catname": "Forests & Trees",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Forests-And-Trees.png"
+    },
+    {
+      "catname": "Oceans & Beaches",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Oceans-And-Beaches.png"
+    },
+    {
+      "catname": "Deserts & Sand Dunes",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Deserts-And-Sand-Dunes.png"
+    },
+    {
+      "catname": "Flowers & Gardens",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Flowers-And-Gardens.png"
+    },
+    {
+      "catname": "Waterfalls",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Waterfalls.png"
+    },
+    {
+      "catname": "Sunrises & Sunsets",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Sunrises-And-Sunsets.png"
+    },
+    {
+      "catname": "Aurora & Night Sky",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Aurora-And-Night-Sky.png"
+    },
+    {
+      "catname": "Wildlife & Animals",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Wildlife-And-Animals.png"
+    },
+    {
+      "catname": "Rivers & Lakes",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Rivers-And-Lakes.png"
+    },
+    {
+      "catname": "Mountains & Hills",
+      "catimage": "https://exalgotech.github.io/naturewallpaper/images/Categories/Mountains-And-Hills.png"
+    }
+  ]
+}
